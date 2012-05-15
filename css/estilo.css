@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-- GLOBAL --*/
+body{ background-image:url(../img/bg.png); background-position:center top; background-repeat:repeat-x; background-color:#fff; font-family:arial,"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.container { width:990px; }
+.container-main{ background-color:#FFF; border-radius:12px; -webkit-border-radius:12px; -moz-border-radius:12px; -o-border-radius:12px; border:1px solid #ddd}
+.btn-inverse{background-image:none;background-color:black;border-radius:3px;border:0;}
+.main, .sidebar{ height:auto;overflow:hidden;margin-top:16px;}
+.main{ width:712px; margin-left:16px;float:left;}
+.sidebar{ width:230px; margin:0 16px 0 16px; float:right;}
+.alert{ background-color:#000000;border:0;}
+.alert h2{ color:#FFF;}
+
+.well { background-color:#F7F7F7; border:1px solid #ddd;}
+
+/*-- TOPO --*/
+.topo{/*background:#0C3;*/overflow:hidden;width:100%;margin-top:5px;}
+.logo-topo {margin:15px 0 0 25px;}
+.idiomas {}
+
+/*-- MENU --*/
+.menu{ background-image:url(../img/menu.png); width:100%;height:55px;}
+.menu li.divisoria{background-image: url(../img/divisoria.png); height:46px; width:2px;margin: 4px 10px 0 0;}
+.menu ul { list-style:none; font-weight:bold; font-size:14px; margin-left:30px;}
+.menu li { float:left; margin-right:20px; margin-top:18px; }
+.menu li a { text-transform:uppercase; color:#FFF;text-shadow:0 1px 0 rgba(0,0,0,1); font-family:Arial, Helvetica, sans-serif;}
+.menu li a:hover { color:#CCC; text-decoration:none;}
+
+/*-- CAROUSEL --*/
+.carousel{ width:100%; height:400px; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+	.carousel img {width:100%;height:100%;border-radius:5px;}
+	.carousel-caption .btn{ font-weight:bold; font-weight:bold; margin-top:15px;}
+	.carousel-caption{color:white;}
+	.carousel-caption small{color:white;}
+
+/*-- NOTICIAS MAIN --*/
+.noticias-main{}
+	.noticias-main img {margin-bottom:10px;}
+	.noticias-main .btn {color:#fff;margin-top:10px;width:185px;font-size:14px;font-weight:bold;}
+	.noticias-main h2{ text-transform:uppercase;}
+	.noticias-main h4{ color:#000000;}
+	.container-noticias-main{float:left; border:1px solid #ddd; border-radius:5px;padding:8px;}
+
+/*-- TEMPO, CONVERSOR DE MOEDAS EREDES SOCIAIS FOOTER --*/
+.tempo, .conv-moedas, .redes-sociais-footer{float:left;}
+.tempo, .conv-moedas, .redes-sociais-footer h3{text-transform:uppercase;}
+.tempo{width:210px;}
+.conv-moedas{width:230px; margin-left:15px;text-align:left;}
+	.conv-moedas select { width:225px;}
+	.controls { margin-bottom:5px;}
+.redes-sociais-footer{width:202px; margin-left:15px;margin-top:-18px;text-align:right;}
+.redes-sociais-footer p{ font-size:11px; color:#666;text-shadow:0 1px 0 rgba(255,255,255,1);margin-top:5px;}
+
+/*-- PESQUISAR --*/
+.pesquisar{ /*background-color:#F4F4F4;border:1px solid #ddd;*/padding:0; border-radius:5px;margin-top:40px;margin-bottom:25px;height:auto;}
+
+/*-- LIKE BOX --*/
+.likebox{ margin-top:30px;text-align:center;}
+
+/*-- FOOTER --*/
+.footer{ width:100%; height:auto;margin:0px 0px 15px 16px;}
+	.footer a{font-weight:bold; color:#000; margin-right:15px;font-size:10px; font-size:14px;}
+	.footer span {color:#666;}
+	.logo-footer{ float:right;margin-right:15px;width:150px;}

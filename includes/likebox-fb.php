@@ -1,0 +1,3 @@
+<div class="likebox">
+	<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fplatform&amp;width=230&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;appId=220409918068942" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:185px; height:500px;" allowTransparency="true"></iframe>
+</div>
